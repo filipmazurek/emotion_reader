@@ -1,7 +1,7 @@
 from git import Repo
 
 repo_dir = 'emotion_reader'
-repo = Repo(repo_dir)
+repo = Repo(self.rorepo.working_tree_dir)
 file_list = [
     'captured_image.jpg'
 ]
