@@ -1,3 +1,7 @@
+# Security Ignore #
+###################
+webhook_key.txt
+
 # Eclipse Ignore #
 ##################
 .classpath
