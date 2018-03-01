@@ -11,7 +11,7 @@ import cognitive_face as CF
 KEY = 'c1c45b21473a4c6dbd02a2155d1cddd8'  # subscription key
 CF.Key.set(KEY)
 
-BASE_URL = 'https://eastus2.api.cognitive.microsoft.com/face/v1.0/'  # service URL specific to my location
+BASE_URL = 'https://eastus2.api.cognitive.microsoft.com/face/v1.0/detect'  # service URL specific to my location
 CF.BaseUrl.set(BASE_URL)
 
 # URL points to image in my git repository
